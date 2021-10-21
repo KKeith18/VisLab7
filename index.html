@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <script defer src="script.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!--Css reset-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      
+    <!-- Milligram CSS -->
+   <!---- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        -->
+    <!-- Include  style.css here -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/topojson@3"></script>
+
+</head>
+
+<body>
+    <div class = "container">
+       
+
+
+        <div class = "graph-area">
+            <h1>Airport Connections</h1>
+            <h3> Select a Chart Type</h3>
+            <p>Please select a chart type:</p>
+            <input type="radio" id="force" name="type" value="force" checked >
+            <label for ="force">Force</label>
+            <input type="radio" id="map" name="type" value="map" >
+            <label for = "map">Map</label>
+        </div>
+        <div class = "map-chart">
+
+        </div>
+        <div class = 'tooltip'>
+
+        </div>
+    </div><!--closing div for container-->
+
+
+</body>
